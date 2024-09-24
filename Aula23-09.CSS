@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: aqua;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-1{
+    background-color: blueviolet;
+    padding: 250px;
+}
+
+.section-2{
+    background-color: deeppink;
+    padding: 250px;
+}
+
+footer{
+    background-color: yellowgreen;
+    padding: 80px;
+}
+
+@media(max-width: 600px) and (max-width: 1024px){
+   header {
+    background-color: red;
+   }
+
+   .section-1{
+    background-color: black;
+   }
+
+   .section-2{
+    background-color: burlywood;
+   }
+
+   footer{
+    background-color: orange;
+   }
+}
+    
+
+
+
+/* Resumo e diferença
+
+Min-width - Largura minima o elemento não pode ser menor que esse valor
+
+Max - width - largura maxima o elemento não pode ser maior que o valor*/
