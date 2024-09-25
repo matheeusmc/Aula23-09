@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    /* O box-sizing: border-box garante que o padding seja incluido no calculo
+    da largura, evitando que o conteudo ultrapasse a tela */
+}
+
+/* Aqui estamos definindo que nosso HTML ocupe a totalidade
+em relação a altura e largura da nossa pagina */
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    padding: 10vh;
+    background-color: bisque;
+    width: 100vw;
+}
+
+.section-01{
+    background-color: yellow;  
+    /* Definição de cor do fundo */
+    padding: 20vh;
+    /* Preenchimento */
+    display: flex;
+    /* Tornando a section flex */
+    justify-content: space-between;
+    /* Justificando o conteudo */
+    align-items: center;
+    /* Alinhando os itens ao centro */
+    width: 100vw;
+    /* Definindo a largura para 100% */
+}
+
+section:last-child {
+    background-color: aquamarine;
+    padding: 30vh;
+    width: 100vw;
+}
+
+.div-01 p {
+    font-size: 2em;
+    margin: 1.2em;
+}
+
+.div-02 img {
+    margin: 5rem;
+    width: 30rem;
+}
+
+footer {
+    padding: 10vh;
+    background-color: bisque;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+@media (max-width: 766px){
+    .section-01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-02 img {
+        margin: 0 auto;
+        /* Aqui estou chamando a imagem e definindo que a mesma fique com os valores superior
+        inferior em 0 e as laterais sejam auto */
+        width: 20rem;
+        /* Largura da imagem */
+    }
+}
+
+.div-03 p {
+    font-size: 25px;
+    /* Ajuste o tamanho da fonte para se adequar a tela menor */
+    line-height: 1.5;
+    /* espaçamento entre linhas para melhor legibilidade */
+    width: 100%;
+    /* certifique-se de ocupar toda a largura */
+    margin: 1em;
+}
+
+
+.section-02{
+    background-color: yellow;  
+    /* Definição de cor do fundo */
+    padding: 20vh;
+    /* Preenchimento */
+    display: flex;
+    /* Tornando a section flex */
+    justify-content: space-between;
+    /* Justificando o conteudo */
+    align-items: center;
+    /* Alinhando os itens ao centro */
+    width: 100vw;
+    /* Definindo a largura para 100% */
+}
+
+section:last-child {
+    background-color: aquamarine;
+    padding: 30vh;
+    width: 100vw;
+}
+
+.div-03 p {
+    font-size: 2em;
+    margin: 1.2em;
+}
+
+.div-04 img {
+    margin: 5rem;
+    width: 30rem;
+}
+
+footer {
+    padding: 10vh;
+    background-color: bisque;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+@media (max-width: 766px){
+    .section-01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-04 img {
+        margin: 0 auto;
+        /* Aqui estou chamando a imagem e definindo que a mesma fique com os valores superior
+        inferior em 0 e as laterais sejam auto */
+        width: 20rem;
+        /* Largura da imagem */
+    }
+}
+
+.div-03 p {
+    font-size: 25px;
+    /* Ajuste o tamanho da fonte para se adequar a tela menor */
+    line-height: 1.5;
+    /* espaçamento entre linhas para melhor legibilidade */
+    width: 100%;
+    /* certifique-se de ocupar toda a largura */
+    margin: 1em;
+}
