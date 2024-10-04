@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -56,11 +56,11 @@ header button {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.section-01{
-    background: linear-gradient(180deg,#adeada 8.33%, #8ae4c6 100%);
+.section-01 {
+    background: linear-gradient(180deg, #adeada 8.33%, #8ae4c6 100%);
     padding: 100px;
     display: flex;
     justify-content: space-evenly;
@@ -69,8 +69,8 @@ header button {
 
 }
 
-.section-02{
-    background: linear-gradient(180deg,#8ae4c6 8.33%, #ceece4 100%);
+.section-02 {
+    background: linear-gradient(180deg, #8ae4c6 8.33%, #ceece4 100%);
     padding: 100px;
     display: flex;
     justify-content: space-evenly;
@@ -79,29 +79,28 @@ header button {
 
 }
 
-.div-02 img{
+.div-02 img {
     width: 600px;
-    margin:rem auto;
+    margin: rem auto;
     display: block;
     border-radius: 5px;
-    
+
 }
 
-footer{
+footer {
     padding: min(5vh, 4rem);
     background-color: #cdeadc;
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: end;
     justify-content: center;
     position: sticky;
-    top:0;
-    left:0;
-    box-shadow: 0 0.21rem 0.5rem 
-    
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.21rem 0.5rem
 }
 
-footer i{
+footer i {
     color: white;
     font-size: 30px;
     padding: 10px;
@@ -110,20 +109,20 @@ footer i{
     align-items: left;
 }
 
-footer i:hover{
+footer i:hover {
     background-color: rgb(17, 58, 194);
     transition: 0.5s;
     cursor: pointer;
 }
 
-.div-text p{
-   color: black;
-   margin: 20px;
-   font-size: 1.5rem;
-   padding: 1.5rem;
+.div-text p {
+    color: black;
+    margin: 20px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
 }
 
-.div-pai{
+.div-pai {
     display: flex;
     position: relative;
     justify-content: center;
@@ -133,7 +132,7 @@ footer i:hover{
     z-index: 1;
 }
 
-.caixa{
+.caixa {
     position: relative;
     width: 200px;
     height: 380px;
@@ -144,10 +143,10 @@ footer i:hover{
     justify-content: center;
     align-items: center;
     border-top: 1px solid #000000;
-    border-left: 1px solid #000000 ;
+    border-left: 1px solid #000000;
 }
 
-.conteudo{
+.conteudo {
     padding: 20px;
     text-align: center;
     transform: translateY(50px);
@@ -155,16 +154,84 @@ footer i:hover{
     transition: 0.5s;
 }
 
-.conteudo:hover{
+.conteudo:hover {
     transform: translateY(0px);
-    opacity:1;
+    opacity: 1;
 }
 
-.section-03{
-    background: linear-gradient(180deg,#ceece4 8.33%, #8ae4c6 100%);
+.section-03 {
+    background: linear-gradient(180deg, #ceece4 8.33%, #8ae4c6 100%);
     padding: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+}
+
+.whatsapp {
+
+    position: relative;
+}
+
+.whatsapp img {
+    position: fixed;
+    width: 3rem;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media (max-width: 830px) {
+
+    .header button {
+        width: 10rem;
+        height: 0.8em;
+        background-color: #8ae4c6;
+        border-radius: 1rem;
+        padding: 1.3rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-01 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9rem;
+    }
+
+    .section-02 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9rem;
+    }
+
+    .div-02 img {
+        margin: 0 auto;
+        width: 20rem;
+    }
+
+    .div-text p {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        text-align: left;
+        width: 100%;
+        margin: 1em;
+    }
+
+
+
+    .whatsapp img {
+
+        width: 2rem;
+        height: auto;
+
+    }
+
+
 }
